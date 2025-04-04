@@ -12,6 +12,9 @@ def bruteforce_attack(password):
                 return (attempts, guess)
     return (attempts, None)
 
+print("Tool made by: https://github.com/GabrielConforto")
+print("-------------------------------------------------")
+
 password = input("Input the password to crack: ")
 attempts, guess = bruteforce_attack(password)
 if guess:
